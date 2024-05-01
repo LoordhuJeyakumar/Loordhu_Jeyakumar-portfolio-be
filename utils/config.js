@@ -1,5 +1,4 @@
 const dotEnv = require("dotenv");
-
 dotEnv.config();
 
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -10,6 +9,7 @@ const EMAIL_PORT = process.env.EMAIL_PORT;
 const EMAIL_SECURE = process.env.EMAIL_SECURE;
 const EMAIL_USER = process.env.EMAIL_USER;
 const EMAIL_PASS = process.env.EMAIL_PASS;
+const ENVIRONMENT = process.env.ENVIRONMENT;
 
 module.exports = {
   MONGODB_URI,
@@ -20,4 +20,5 @@ module.exports = {
   EMAIL_USER,
   EMAIL_PASS,
   EMAIL_SECURE,
+  ENVIRONMENT,
 };
