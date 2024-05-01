@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-loordhujeyakumar-be",
+  "version": "1.0.0",
+  "description": "## Back-End of My Portfolio",
+  "main": "that this is a general description and may not accurately represent your portfolio's back-end if it uses different technologies or has different features.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoordhuJeyakumar/Loordhu_Jeyakumar-portfolio-be.git"
+  },
+  "author": "Loordhu Jeyakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoordhuJeyakumar/Loordhu_Jeyakumar-portfolio-be/issues"
+  },
+  "homepage": "https://github.com/LoordhuJeyakumar/Loordhu_Jeyakumar-portfolio-be#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
