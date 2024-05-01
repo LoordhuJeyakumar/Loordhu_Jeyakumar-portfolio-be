@@ -24,7 +24,6 @@
     "express": "^4.19.2",
     "mongoose": "^8.3.3",
     "nodemailer": "^6.9.13",
-    "serverless": "^3.38.0",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {

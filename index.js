@@ -19,10 +19,7 @@ mongoose
         console.log(`Server running on port ${config.PORT}`);
       });
     } else {
-      const handler = serverless(app, { provider: "azure" });
-      module.exports.funcName = async (context, req) => {
-        context.res = await handler(context, req);
-      };
+      module.exports.handler = serverless(app);
     }
   })
   .catch((error) => {
